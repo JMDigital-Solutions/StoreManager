@@ -1,0 +1,41 @@
+@import './_variables.scss';
+
+$theme-colors: (
+	"primary":    $primary-color,
+	"secondary":  $accent-color,
+	"success":    $success-color,
+	"info":       $info-color,
+	"warning":    $warning-color,
+	"danger":     $danger-color,
+	"light":      $primary-color-light,
+	"dark":       $primary-color-dark
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.card {
+	.row {
+		margin: 0;
+	}
+
+	.card-header {
+		color: $dark-color;
+		padding: 0;
+
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+		}
+	}
+
+	.card-title {
+		font-size: 1.5rem;
+	}
+}
+
+.highlight {
+	background: $accent-color-light;
+}
+
+.menu-icon {
+	padding-right: 0;
+}

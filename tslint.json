@@ -1,0 +1,59 @@
+{
+	"extends": [
+		"tslint:latest"
+	],
+	"rules": {
+		"max-line-length": [
+			true,
+			120
+		],
+		"quotemark": [
+			true,
+			"single",
+			"avoid-escape"
+		],
+		"adjacent-overload-signatures": true,
+		"object-literal-sort-keys": false,
+		"indent": [
+			true,
+			"tabs",
+			4
+		],
+		"no-submodule-imports": [
+			true,
+			"rxjs",
+			"@angular/platform-browser",
+			"@angular/cdk/layout",
+			"@angular/cdk/table",
+			"@angular/common/http",
+			"zone.js/dist/zone",
+			"core-js/es7/reflect",
+			"core-js/es6/array",
+			"core-js/es6/date",
+			"core-js/es6/function",
+			"core-js/es6/map",
+			"core-js/es6/math",
+			"core-js/es6/number",
+			"core-js/es6/object",
+			"core-js/es6/parse-float",
+			"core-js/es6/parse-int",
+			"core-js/es6/regexp",
+			"core-js/es6/set",
+			"core-js/es6/string",
+			"core-js/es6/symbol",
+			"core-js/es6/weak-map",
+			"angular2-google-chart/directives/angular2-google-chart.directive",
+		],
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format",
+			"allow-leading-underscore"
+		],
+		"no-empty": false,
+		"no-console": false,
+		"arrow-parens": [true, "ban-single-arg-parens"],
+		"curly": [true, "as-needed"],
+		"align": false
+	}
+}

@@ -1,0 +1,58 @@
+@import '../../../_variables.scss';
+
+.mat-toolbar {
+	.mat-icon-button .mat-icon {
+		line-height: 21px;
+	}
+}
+
+.main-container {
+	position: absolute;
+	top: 4rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 0 !important;
+
+	.container-fluid {
+		padding-top: 0.5rem;
+	}
+
+	.mat-sidenav {
+		box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.2);
+		width: 18rem;
+
+		.mat-divider {
+			margin: 7px 0 7px 0;	
+		}
+		
+		small {
+			margin: 0.8rem;
+			text-decoration: underline;
+		}
+
+		.mat-nav-list {
+			padding-top: 0;
+
+			a {
+				border-radius: 0;
+				text-align: left;
+
+				i {
+					margin-right: 1rem;
+					font-size: 1.8rem;
+				}
+
+				&.active {
+					background: rgba(0, 0, 0, 0.07);
+					font-size: 1rem;
+					font-weight: bold;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.mat-tab-nav-bar {
+		border-bottom: 0;
+	}
+}

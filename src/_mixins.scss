@@ -1,0 +1,20 @@
+//Mixins
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color;
+    background: rgba($color, $opacity);
+}
+
+@mixin text-format {
+	color: $dark-color;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.4);
+	font-family: 'Source Sans Pro', 'sans-serif';
+	line-height: 1.5;
+	margin-bottom: .3rem;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+@mixin heading-format {
+	font-family: 'Source Sans Pro', 'sans-serif';
+	text-transform: uppercase;
+}
